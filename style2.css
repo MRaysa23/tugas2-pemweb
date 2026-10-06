@@ -1,0 +1,23 @@
+.judul {
+    font-weight: 500;
+}
+
+.kartu-profil {
+    overflow: hidden; 
+}
+
+.foto-profil {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f8f9fa;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+@media (max-width: 576px) {
+    .foto-profil {
+        width: 100px;
+        height: 100px;
+    }
+}
